@@ -10,9 +10,11 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var txtUrl: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+     txtUrl.stringValue = Url.cleanUpUrl("http://www.soft98.ir/the-movie_name+size.extension-.mkv")
+      
         // Do any additional setup after loading the view.
     }
 
