@@ -1,10 +1,8 @@
 import Cocoa
 
-public final class Url {
-    private init() {
-        self.url="sample-link_whith+special.characters"
-    }
-    var url:String="";
+public final class UrlAddress {
+   
+    static var  specialChars=[String]()
     /**
      This method clean up url from "-","_",".","+" characters
      - Author:
@@ -65,4 +63,15 @@ public final class Url {
             replacedUrl = replacedUrl.replacingOccurrences(of: char, with: chararacter)
         }
         return replacedUrl
-    }}
+    }
+   public static func addToSpecialChars(_ char:String){
+        specialChars.append(char)
+    }
+    public static func removeFromSpecialChars(_ char:String){
+        if let index = specialChars.index(of: char){
+            specialChars.remove(at:index)
+        }
+    }
+    
+    
+}
