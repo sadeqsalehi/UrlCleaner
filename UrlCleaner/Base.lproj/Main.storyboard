@@ -748,6 +748,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="18"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="buttonDidClick:" target="XfG-lQ-9wD" id="Lgl-Rf-WZg"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mre-jd-msn">
                                 <rect key="frame" x="168" y="38" width="115" height="32"/>
@@ -756,6 +759,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="18"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="buttonDidClick:" target="XfG-lQ-9wD" id="g37-MZ-oAN"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zca-nb-DAf">
                                 <rect key="frame" x="53" y="38" width="115" height="32"/>
@@ -764,6 +770,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system" size="18"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="buttonDidClick:" target="XfG-lQ-9wD" id="8cn-qy-bDY"/>
+                                </connections>
                             </button>
                             <box fixedFrame="YES" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="x8J-fH-qhC">
                                 <rect key="frame" x="56" y="67" width="602" height="55"/>
