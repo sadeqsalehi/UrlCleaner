@@ -75,7 +75,7 @@ class ViewController: NSViewController {
      }
     override func viewDidLoad() {
         super.viewDidLoad()
-        txtUrl.stringValue = UrlAddress.cleanUpUrl("http://www.soft98.ir/the-movie_name+size.extension-.mkv")
+        txtUrl.stringValue = PasteBoardHelper.pasteboardStringContent()
         checkStatevalues(1)
         checkStatevalues(2)
         checkStatevalues(3)
